@@ -48,10 +48,7 @@ public class TestUniquelyNamedPersons {
         Integer valueOfN = 4;
 
         // when
-        List<String> actual = warehouse
-                .getFirstNUniquelyNamedPeople(valueOfN)
-                .map(Person::getName)
-                .collect(Collectors.toList());
+        List<String> actual = warehouse.getFirstNUniquelyNamedPeople(valueOfN).map(Person::getName).collect(Collectors.toList());
 
         // then
         List<String> uniqueNameDerivation = this.deriveUniqueNames(warehouse);
