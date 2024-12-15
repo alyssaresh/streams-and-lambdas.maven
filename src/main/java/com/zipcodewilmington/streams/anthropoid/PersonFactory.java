@@ -57,7 +57,6 @@ public final class PersonFactory {
     public Person[] createPersonArray(int arrayLength) {
         Person[] personArray = IntStream.range(0, arrayLength).mapToObj(i -> createRandomPerson()).toArray(Person[]::new);
         return personArray;
-
     }
 
 
