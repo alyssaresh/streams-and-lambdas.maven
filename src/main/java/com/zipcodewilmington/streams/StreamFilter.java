@@ -28,6 +28,7 @@ public class StreamFilter {
      * @param startingCharacter - character to filter by
      */ //TODO
     public StreamFilter(Person[] people, Character startingCharacter) {
+
         this(Stream.empty(), null);
     }
 

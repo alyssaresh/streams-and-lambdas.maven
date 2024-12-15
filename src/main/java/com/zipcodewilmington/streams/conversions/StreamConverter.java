@@ -30,11 +30,13 @@ public final class StreamConverter extends PersonConversionAgent<Stream<Person>>
 
     // TODO
     public Stream<Person> toStream() {
+
         return null;
     }
 
     // TODO
     public Person[] toArray() {
+
         return null;
     }
 }
